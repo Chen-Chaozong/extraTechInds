@@ -11,10 +11,10 @@ Momratio : 构建动量比率类指标，Momentum构建出动量后输入Momrati
 
 设计思路在于扩展对动量的认识，例如：
 
-定义正动量为当前价与n期内最低价的差：close - runMin(low,n)
+定义正动量为当前价与n期内最低价的差: close - runMin(low,n)
 
-定义负动量为n期内最高价与当前价的差: rumMax(high,n)-close
+定义负动量为n期内最高价与当前价的差: runMax(high,n)-close
 
-正动量比率即为: [ close - runMin(low,n) ] / ( rumMax(high,n)+runMin(low,n) )
+正动量比率即为: [ close - runMin(low,n) ] / ( runMax(high,n)+runMin(low,n) )
 
 实际上就是随机指标Stochastic Index
